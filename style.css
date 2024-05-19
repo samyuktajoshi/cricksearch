@@ -1,0 +1,113 @@
+
+body{
+    background-color: whitesmoke; /* Define gradient */
+    transition: width 0.3s, height 0.3s; /* Add transition effect */
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+}
+.div{
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.about{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size:12px;
+    align-items: center;
+}
+img{
+    padding: 30px;
+    border-radius: 50%;
+    transition: width 0.9s ease, height 0.9 ease; 
+}
+img:hover{
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+
+}
+.table{
+    color: rgb(0, 7, 7);
+    font-size:150%;
+}
+#bio{
+    width: 80vw;
+    height: 100%;
+    padding: 20px;
+    font-size:18px;
+    padding-top: 4vw;
+}
+
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    background-color: rgb(17, 17, 17)
+}
+.title{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 40px;
+    color:whitesmoke;
+}
+
+.search{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    padding: 5vh;
+}
+
+#insert{
+    border-radius: 20px;
+    width: 60vw;
+    margin-right: 10%;
+    border: 2px solid black;
+    background-color: white;
+    padding:3vh;
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-size: 3vh;
+}
+.button{
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+    border-radius: 20px;
+    width: 8vw;
+    height: 7vh;
+    margin-top: 1vh;
+    margin-right: 3vw;
+    font-size: larger;
+    border: 2px solid black;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    width: 9vw;
+    height: 8vh;
+    margin-top: 2%;
+    border: 2px solid rgb(255, 255, 255);
+}
+::placeholder{
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+}
